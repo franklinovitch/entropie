@@ -1,0 +1,113 @@
+.home {
+	background: #222;
+	background: url('./resources/img/bg_body.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	color: #FFF;
+	font-family: Ubuntu, sans-serif;
+}
+
+.home h1 { 
+	text-align: center;
+	color: #FFF;
+	font-size: 40px;
+}
+
+.home p.lead {
+	text-align: center;
+	color: #FFF;	
+}
+
+.home .container {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+.home .container .bloc {
+	width: 50%;
+	height: 60%;
+	/*min-height: 510px;*/
+	/*overflow: auto;*/
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.home .homemenu {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: auto;
+	margin-top: 30px;
+	list-style: none;
+	padding: 0;
+}
+
+.home .homemenu li {
+	float: left;
+	width: 40%;
+	margin: 10px 5%;
+	text-align: center;
+}
+
+.home .homemenu li a {
+	color: #FFF;
+	display: block;
+	padding: 10px;
+	border: solid 1px rgba(0,0,0,0);
+}
+
+.home .homemenu li a:hover {
+	text-decoration: none;
+}
+
+.home .homemenu li img {
+	width: 100%;
+	max-width: 100px;
+}
+
+.home .homemenu li p {
+	width: 100%;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+
+.home .homemenu .entrequote a {
+	color: #34AEFF;
+}
+.home .homemenu .entrequote a:hover {
+	border: solid 1px #34AEFF;
+}
+
+.home .homemenu .kenavo a {
+	color: #FFDA46;
+}
+.home .homemenu .kenavo a:hover {
+	border: solid 1px #FFDA46;
+}
+
+.home .homemenu .latabouze a {
+	color: #FF6666;
+}
+.home .homemenu .latabouze a:hover {
+	border: solid 1px #FF6666;
+}
+
+.home .homemenu .blog a {
+	color: #53AF3C;
+}
+.home .homemenu .blog a:hover {
+	border: solid 1px #53AF3C;
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+	.home .container .bloc {
+		width: 100%;
+	}
+
+}
