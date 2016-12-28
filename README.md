@@ -1,2 +1,2 @@
 # entropie
-Old project containing several applications
+Old project using homemade multisite framework using PHP and Apache
